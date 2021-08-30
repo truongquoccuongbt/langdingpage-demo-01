@@ -1,0 +1,301 @@
+:root {
+    --gray-dark: #272e35;
+    --primary-color: #579aff;
+    --gray: #868d93;
+    --gray-light: #e8e8e8;
+    --padding-top-section: 150px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    overflow-x: hidden;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    background-color: white;
+    color: var(--gray-dark);
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.button {
+    display: inline-block;
+    font-size: 16px;
+    color: var(--gray-dark);
+    padding: 15px 45px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    line-height: normal;
+    transition: all 0.2s linear;
+}
+
+.button-border {
+    border: 1px solid var(--gray-light);
+    color: var(--gray);
+}
+
+/* ========= HEADER ======== */
+.header {
+    padding-top: 43px;
+    display: flex;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-auth {
+   margin-left: auto;
+}
+
+.header-logo {
+    margin-right: 140px;
+}
+.header-menu-item:not(:first-child) {
+    margin-left: 60px;
+}
+
+.button-primary {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+/* ========= BANNER ======== */
+.banner {
+    display: flex;
+    padding-top: var(--padding-top-section);
+    align-items: center;
+}
+.banner-info {
+    width: 35%;
+}
+.banner-header {
+    font-size: 55px;
+    line-height: 1.4;
+}
+.banner-info span {
+    display: block;
+}
+.banner-image {
+    width: 65%;
+}
+.banner-p {
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 1.4;
+    color: var(--gray);
+}
+.banner-btn {
+    padding-top: 30px;
+}
+.button-start {
+    padding: 15px 20px;
+    margin-right: 50px;
+}
+.button-work {
+    border: 1px solid var(--gray);
+    color: var(--gray);
+    border-radius: 15px;
+}
+
+/* ========= WALK-THROUGH ======== */
+.walk-through {
+    padding-top: var(--padding-top-section);
+    align-items: center ;
+    
+}
+.walk-through-header {
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.4;
+}
+.walk-through span {
+    display: block;
+}
+.walk-through .options {
+    text-align: center;
+    display: flex;
+    padding-top: 80px;
+}
+.walk-through .box-option {
+    padding: 60px 30px;
+    border: 1px solid var(--gray-light);
+    border-radius: 20px;
+    width: 31%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.walk-through .options h4 {
+    font-size: 25px;
+    line-height: 1.4;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.walk-through .options img {
+    margin-left: auto;
+    margin-right: auto;
+}
+.walk-through p {
+    color: var(--gray);
+    line-height: 1.4;
+    padding-bottom: 30px;
+}
+
+.walk-through .button-border:hover {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+/* =========== ZULU sTUDIO ============ */
+.zulu-studio {
+    display: flex;
+    padding-top: var(--padding-top-section);
+}
+
+.zulu-studio-info {
+    width: 40%;
+}
+.zulu-studio-image {
+    width: 60%;
+}
+.zulu-studio-image img {
+    margin-left: auto;
+}
+.zulu-studio span {
+    display: block;
+}
+.zulu-studio h1 {
+    font-size: 50px;
+    line-height: 1.4;
+    font-weight: 900;
+}
+
+/* ================ Zulu pricing ========== */
+.zulu-pricing-boxes {
+    border: 1px solid var(--gray-light);
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: calc(33.33% - 10px);
+    padding: 20px;
+}
+
+.zulu-pricing-boxes h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+.zulu-plant hr {
+    margin-top: 95px;
+    margin-bottom: 60px;
+}
+
+.pricing-feature-item {
+    margin-bottom: 50px;
+}
+
+.pricing-feature {
+    margin-top: 110px;
+    margin-bottom: 60px;
+}
+
+.zulu-pricing-info {
+    text-align: center;
+    padding-bottom: 145px;
+    padding-top: 80px;
+}
+
+.zulu-plant-big-number {
+    font-size: 70px;
+}
+
+.block-heading {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.block-heading span {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.pricing-feature-box {
+    padding-bottom: 30px;
+    color: var(--gray);
+}
+
+.pricing-symbol {
+    vertical-align: top;
+}
+
+.zulu-pricing {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.pricing-button {
+    margin: auto auto 0;
+}
+
+.pricing-money {
+    border-bottom: 1px solid var(--gray-light);
+    padding-top: 10px;
+    padding-bottom: 45px;
+}
+
+.pricing-intro {
+    padding-top: 33px;
+}
+
+.pricing-list-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.zulu-pricing-boxes:hover .pricing-button {
+    background-color: #579aff;
+    border-color: #579aff;
+    color: white;
+    transition: all .2s linear;
+}
+
+.zulu-pricing-boxes:hover {
+    border-color: transparent;
+    box-shadow: 0 0 50px 10px rgb(0 0 0 / 3%);
+}
+
+
+
