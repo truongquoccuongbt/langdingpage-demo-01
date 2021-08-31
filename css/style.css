@@ -297,5 +297,51 @@ body {
     box-shadow: 0 0 50px 10px rgb(0 0 0 / 3%);
 }
 
+/* ============= zulu client ============= */
+.zulu-client-info {
+    text-align: center;
+    padding-top: 42px;
+    padding-bottom: 85px;
+}
+
+.client-box {
+    border: 1px solid var(--gray-light);
+    width: 334px;
+    height: 462px;
+    padding: 20px;
+}
+
+.client-avatar {
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+
+.client-avatar img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    background-color: green;
+    object-fit: cover;
+    margin: 0 auto 25px;
+}
+
+.client-box h1 {
+    font-weight: 500;
+    padding-top: 25px;
+}
+
+.client-name {
+    text-align: center;
+}
+
+.zulu-client {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
 
 
