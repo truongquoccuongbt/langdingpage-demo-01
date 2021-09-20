@@ -38,6 +38,7 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+
 .container {
     max-width: 1170px;
     padding: 0 15px;
@@ -307,8 +308,11 @@ body {
 .client-box {
     border: 1px solid var(--gray-light);
     width: 334px;
-    height: 462px;
+    height: 500px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: calc(33.33% - 10px);
 }
 
 .client-avatar {
@@ -334,13 +338,99 @@ body {
     padding-top: 25px;
 }
 
-.client-name {
+.client-profile {
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .zulu-client {
     padding-bottom: 40px;
     padding-top: 40px;
+}
+
+.client-name {
+    padding-bottom: 15px;
+}
+
+.client-career {
+    color: var(--gray);
+    padding-bottom: 30px;
+}
+
+.client-feeling {
+    font-size: 16px;
+    color: var(--gray);
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    line-height: 1.5;
+}
+
+.client-rate {
+    text-align: center;
+    color: yellow;
+}
+
+.client-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ============= zulu client ============= */
+.zulu-started-heading {
+    margin: auto auto;
+}
+
+.zulu-started {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+    padding-top: 150px;
+}
+
+.zulu-started-box {
+    background-color: rgba(239, 239, 255, 0.959);
+    width: 900px;
+    height: 495px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.zulu-started-content span{
+    display: block;
+    padding-bottom: 10px;
+}
+
+.zulu-started-content {
+    padding-bottom: 50px;
+}
+
+.zulu-started-btn {
+    margin: auto auto;
+}
+
+.zulu-started-btn a {
+    margin: 0;
+}
+
+.zulu-started-box h1 {
+    padding-bottom: 20px;
+    line-height: 2.;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.zulu-started-box-icon-left {
+    margin-top: auto;
+}
+
+.zulu-started-box-icon-right {
+    margin-bottom: auto;
+    transform: translate(50%, -50%);
 }
 
 
